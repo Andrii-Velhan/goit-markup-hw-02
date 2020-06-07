@@ -6,6 +6,7 @@
   --text-color: #757575;
   --primary-footer-color: #2f303a;
   --background-primary-gray: #f5f4fa;
+  --background-primary-darck: rgba(47, 48, 58, 0.8);
 }
 
 body {
@@ -123,6 +124,85 @@ header .link:focus {
   color: var(--text-color);
 }
 
+.employments h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background: var(--background-primary-darck);
+  /* bg */
+  /* position: absolute; */
+  /* width: 370px;
+  height: 70px;
+  left: 615px;
+  top: 1435px; */
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-main-color);
+  /* Наша команда */
+  /* position: absolute; */
+  /* width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1693px; */
+}
+
+.team-title h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-main-color);
+}
+
+.team-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.social-link a:hover,
+.social-link a:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  outline-width: 0px;
+}
+
+.customer {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-main-color);
+  /* Постоянные клиенты */
+  /* position: absolute;
+  width: 390px;
+  height: 42px;
+  left: 606px;
+  top: 2395px; */
+}
+
+.customer img:hover,
+.customer img:focus {
+  background-color: var(--accent-color);
+}
+
+/* </studio-main> */
+
 /* .order button:hover,
 .subsorder button:focus {
   color: var(--primary-white-color);
@@ -178,7 +258,7 @@ header .link:focus {
   background-color: var(--accent-color);
 }
 
-/* </main> */
+/* </PORTFOLIO main> */
 
 /* <footer> */
 
