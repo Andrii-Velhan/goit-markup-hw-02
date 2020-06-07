@@ -76,9 +76,60 @@ header .link:focus {
   outline-width: 0px;
 }
 
-/* </heder> */
+/* </header> */
 
-/* <main> */
+/* <studio-main> */
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  /* size */
+  width: 200px;
+  height: 50px;
+}
+
+.feature h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-main-color);
+}
+
+.feature p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* .order button:hover,
+.subsorder button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  outline-width: 0px; */
+
+/* <PORTFOLIO main> */
 
 /* Портфолио меню */
 
